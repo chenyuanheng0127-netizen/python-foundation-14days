@@ -25,7 +25,8 @@ python-foundation-14days/
 ├── day01_stock_return.py   # stock return analysis script
 ├── day01_stock_return_data.csv # generated data
 ├── day01_stock_return.png      # generated plot
-└── README.md               # this file```
+└── README.md               # this file
+```
 ## 🛠️ Tech Stack
 - **Language**: Python 3.11+  
 - **Core**: NumPy, Pandas, SciPy, Statsmodels  
