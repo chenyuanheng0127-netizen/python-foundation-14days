@@ -14,18 +14,22 @@ This repository tracks my daily progress, exercises, and mini-projects.
 - **Week 2**: Finance mini-projects – option pricing, Monte Carlo simulations, Greeks, VaR/ES.  
 - **Daily**: 5–6 LeetCode problems to strengthen algorithmic thinking.
 ## 📂 Repository Structure
-‘’‘python-foundation-14days/
-├── src/                # reusable modules
-├── notebooksß/          # Jupyter notebooks for demos & experiments
-├── tests/              # unit tests
-├── data/               # (ignored) sample datasets
-├── figures/            # plots & charts
-├── day01_basics.py     # first exercise
-└── README.md           # this file’‘’
+```text
+python-foundation-14days/
+├── src/                    # reusable modules
+├── notebooks/              # Jupyter notebooks for demos & experiments
+├── tests/                  # unit tests
+├── data/                   # (ignored) sample datasets
+├── figures/                # plots & charts
+├── day01_basics.py         # first exercise
+├── day01_stock_return.py   # stock return analysis script
+├── day01_stock_return_data.csv # generated data
+├── day01_stock_return.png      # generated plot
+└── README.md               # this file
 ## 🛠️ Tech Stack
 - **Language**: Python 3.11+  
 - **Core**: NumPy, Pandas, SciPy, Statsmodels  
-- **Visualization**: Matplotlib  ß
+- **Visualization**: Matplotlib  
 - **Dev Tools**: Git, VSCode, pytest, black, pre-commit, GitHub Actions CI  
 ## 📌 Commit Rules
 We follow the **Conventional Commits** standard:
