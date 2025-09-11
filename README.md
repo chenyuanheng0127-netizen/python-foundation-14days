@@ -14,26 +14,37 @@ This repository tracks my daily progress, exercises, and mini-projects.
 - **Week 2**: Finance mini-projects – option pricing, Monte Carlo simulations, Greeks, VaR/ES.  
 - **Daily**: 5–6 LeetCode problems to strengthen algorithmic thinking.
 ## 📂 Repository Structure
-python-foundation-14days/
+‘’‘python-foundation-14days/
 ├── src/                # reusable modules
-├── notebooks/          # Jupyter notebooks for demos & experiments
+├── notebooksß/          # Jupyter notebooks for demos & experiments
 ├── tests/              # unit tests
 ├── data/               # (ignored) sample datasets
 ├── figures/            # plots & charts
 ├── day01_basics.py     # first exercise
-└── README.md           # this file
+└── README.md           # this file’‘’
 ## 🛠️ Tech Stack
 - **Language**: Python 3.11+  
 - **Core**: NumPy, Pandas, SciPy, Statsmodels  
-- **Visualization**: Matplotlib  
+- **Visualization**: Matplotlib  ß
 - **Dev Tools**: Git, VSCode, pytest, black, pre-commit, GitHub Actions CI  
 ## 📌 Commit Rules
-- Daily commit with clear message:  
-  - `feat: add numpy vectorization example`  
-  - `fix: handle edge case in monte carlo simulation`  
-- Weekly summary tagged as release (v0.1, v0.2, …).  
+We follow the **Conventional Commits** standard:
+
+- **feat**: new feature (e.g. `feat(plot): add volatility calculation`)
+- **fix**: bug fix (e.g. `fix(script): correct label spelling`)
+- **docs**: documentation changes (e.g. `docs(readme): update commit rules`)
+- **style**: code formatting, no logic changes
+- **refactor**: code refactoring without new features or bug fixes
+- **test**: add or modify tests
+- **chore**: config, build, or dependency changes
+
+> Rule of thumb: one commit = one clear purpose.  
+> Messages use lowercase, imperative mood, and stay concise. 
 ## 📈 Progress
-- [x] Day 1 – Python basics, repo setup, NumPy warm-up  
-- [ ] Day 2 – OOP, iterators, context managers  
-- [ ] Day 3 – NumPy deep dive, benchmarking  
-- [ ] …  
+- [x] Day 1 – Environment setup, GitHub repo, Python basics, first stock return analysis project
+- [ ] Day 2 – Functions (OOP, iterators, context managers) + daily LeetCode practice
+- [ ] Day 3 – NumPy deep dive, benchmarking, performance comparison
+- [ ] Day 4 – Pandas advanced operations (multi-index, groupby, merge)
+- [ ] Day 5 – Visualization & statistics (Matplotlib, Statsmodels)
+- [ ] Day 6 – Engineering practices (pytest, black, pre-commit, CI)
+- [ ] Day 7 – Mini project: CSV → factor panel pipeline
