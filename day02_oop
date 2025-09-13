@@ -1,0 +1,24 @@
+class BankAccount:
+    """Simple Bank Account class for demo."""
+
+    def __init__(self, owner: str, balance: float = 0.0):
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self, amount: float) -> None:
+        self.balance += amount
+        print(f"{self.owner} deposited {amount}, balance={self.balance}")
+
+    def withdraw(self, amount: float) -> None:
+        if amount > self.balance:
+            print("Insufficient funds!")
+        else:
+            self.balance -= amount
+            print(f"{self.owner} withdrew {amount}, balance={self.balance}")
+
+# 创建账户
+account = BankAccount("Alice", 100.0)
+account.deposit(50.0)
+account.withdraw(30.0)
+account.withdraw(150.0)  # Should show insufficient funds
+print(f"Final balance: {account.balance}")

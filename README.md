@@ -47,7 +47,7 @@ We follow the **Conventional Commits** standard:
 > Messages use lowercase, imperative mood, and stay concise. 
 ## 📈 Progress
 - [x] Day 1 – Environment setup, GitHub repo, Python basics, first stock return analysis project
-- [ ] Day 2 – Functions (OOP, iterators, context managers) + daily LeetCode practice
+- [x] Day 2 – Functions (OOP, iterators, context managers) + daily LeetCode practice
 - [ ] Day 3 – NumPy deep dive, benchmarking, performance comparison
 - [ ] Day 4 – Pandas advanced operations (multi-index, groupby, merge)
 - [ ] Day 5 – Visualization & statistics (Matplotlib, Statsmodels)
