@@ -48,7 +48,7 @@ We follow the **Conventional Commits** standard:
 ## 📈 Progress
 - [x] Day 1 – Environment setup, GitHub repo, Python basics, first stock return analysis project
 - [x] Day 2 – Functions (OOP, iterators, context managers) + daily LeetCode practice
-- [ ] Day 3 – NumPy deep dive, benchmarking, performance comparison
+- [x] Day 3 – NumPy deep dive, benchmarking, performance comparison
 - [ ] Day 4 – Pandas advanced operations (multi-index, groupby, merge)
 - [ ] Day 5 – Visualization & statistics (Matplotlib, Statsmodels)
 - [ ] Day 6 – Engineering practices (pytest, black, pre-commit, CI)
