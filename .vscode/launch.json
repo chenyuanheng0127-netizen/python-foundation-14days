@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+  "name": "Day4 cleaner (args preset)",
+  "type": "python",
+  "request": "launch",
+  "program": "${workspaceFolder}/Day4/day4_csvclean/clean_csv.py",
+  "cwd": "${workspaceFolder}",
+  "console": "integratedTerminal",
+  "args": [
+    "--input", "Day4/day4_csvclean/data/sample.csv",
+    "--output", "Day4/day4_csvclean/out/clean.csv",
+    "--columns", "name", "age", "city",
+    "--dropna", "--dedup",
+    "--to-json", "Day4/day4_csvclean/out/summary.json",
+    "--verbose"
+  ]
+}
+    {
+      "name": "Run current Python file",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",            // 运行当前打开的脚本
+      "cwd": "${fileDirname}",         // 以脚本所在目录为起点
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run with args (prompt)",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "args": ["${input:cliArgs}"]     // 运行前弹窗输入参数
+    }
+  ],
+  "inputs": [
+    {
+      "id": "cliArgs",
+      "type": "promptString",
+      "description": "CLI args (e.g. --input data.csv --output out.csv --dropna)",
+      "default": ""
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/Users/hendrixchen/miniforge3/envs/pf14d/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.cwd": "${workspaceFolder}",     // 从仓库根起跑
+  "python.testing.pytestArgs": ["." ]              // 自动发现所有子目录 tests
+}
